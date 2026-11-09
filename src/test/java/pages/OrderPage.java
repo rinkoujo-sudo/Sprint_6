@@ -36,7 +36,7 @@ public class OrderPage extends BasePage {
     private By rentalPeriodField = By.className("Dropdown-arrow");
 
     // Кнопка «Заказать»
-    private By orderButton = By.xpath("//button[text()='Заказать']");
+    private By orderButton = By.xpath("//button[contains(@class, 'Button_Middle__1CSJM') and text()='Заказать']");
 
     // Кнопка «Да» в подтверждении
     private By confirmOrderButton = By.xpath("//button[text()='Да']");
